@@ -24,6 +24,11 @@ header {
   list-style: none;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 h1 {
   float: right;
   padding-top: 7px;
@@ -52,6 +57,7 @@ body {
 
 p {
   margin: .5em;
+  color: #000;
 }
 
 .title {
@@ -70,6 +76,7 @@ h2 {
   margin-left: .3em;
   font-family: Lato, sans-serif;
   font-weight: bold;
+  color: #000;
 }
 
 img {
@@ -130,6 +137,12 @@ li {
   text-align: center;
   border-width: 2px;
   font-family: Lato, sans-serif;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #0032a3;
+  border-color: #fff;
 }
 
 li:hover {

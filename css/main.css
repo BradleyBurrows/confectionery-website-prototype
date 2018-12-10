@@ -1,4 +1,4 @@
-@-moz-viewport { width: device-width; scale: 1; }
++@-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
@@ -25,6 +25,15 @@ header{
   background-color: #0032a3;
   color: #fff;
   list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  display: inline-block;
+  margin-left: 15px;
 }
 
 h1 {
@@ -74,10 +83,6 @@ img {
   width: 100%;
 }
 
-.img-flex {
-  width: 100%;
-  display: block;
-}
 .cards {
   position: relative;
 }
@@ -103,7 +108,6 @@ strong {
   margin-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
-  display: flex;
 }
 
 .media-icons {
@@ -114,110 +118,88 @@ strong {
   margin-left: 10px;
 }
 
-ul {
-  display: none;
-}
-
 @media only screen and (min-width: 38em) {
 
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-  h1,
-  p {
-    margin: 0 0 1.4rem;
-  }
-  .cards {
-    width: 49%;
-    display: inline-block;
-  }
-
-  .about {
-    width: 100%;
-  }
-
-  .text {
-    text-align: left;
-    margin: 1em;
-  }
-
-  h1{
-    float: left;
-  }
-
-  .nav-icon {
-    display: none;
-  }
-
-  header {
-    height: 58px;
-  }
-
- ul {
-  float: right;
-  margin: 0;
-  margin-top: 18px;
-  margin-right: 10px;
-  display: block;
+ html {
+@ -134,4 +143,81 @@ strong {
+   margin: 1em;
  }
 
-  li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 10px;
-  }
+ h1{
+   float: left;
+ }
+
+ .nav-icon {
+   display: none;
+ }
+
+ header {
+   height: 58px;
+ }
+
+ul {
+ float: right;
+ margin: 0;
+ margin-top: 18px;
+ margin-right: 10px;
+ display: block;
+}
+
+ li {
+   list-style-type: none;
+   display: inline-block;
+   margin-left: 10px;
+ }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
+ html {
+   font-size: 120%;
+   line-height: 1.5;
+ }
 
-  h1,
-  p {
-    margin: 0 0 1.5rem;
-  }
+ h1,
+ p {
+   margin: 0 0 1.5rem;
+ }
 
-  .about {
-    max-height: 300px;
-    overflow: hidden;
-    margin-bottom: 2em;
-  }
+ .about {
+   max-height: 300px;
+   overflow: hidden;
+   margin-bottom: 2em;
+ }
 
-  .about p {
-    position: absolute;
-    top: 15%;
-    width: 500px;
-  }
+ .about p {
+   position: absolute;
+   top: 15%;
+   width: 500px;
+ }
 
-  .container {
-    overflow: hidden;
-    width: 45%;
-    display: inline-block;
-    max-width: 235px;
-  }
+ .container {
+   overflow: hidden;
+   width: 100%;
+   display: inline-block;
+   max-width: 235px;
+ }
 
-  .text {
-    display: inline-block;
-    position: absolute;
-    top: 100px;
-  }
+ .text {
+   display: inline-block;
+   position: absolute;
+   top: 100px;
+ }
 
-  .container img {
-    height: 100%;
-    width: 100%;
-  }
+ .container img {
+   height: 100%;
+   width: 100%;
+ }
 }
 
 @media only screen and (min-width: 90em) {
 
-  html {
-    font-size: 130%;
-  }
+ html {
+   font-size: 130%;
+ }
 
 }

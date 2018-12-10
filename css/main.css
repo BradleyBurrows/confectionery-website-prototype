@@ -177,14 +177,14 @@ li:hover {
     height: 58px;
   }
 
- ul {
-  float: right;
-  margin: 0;
-  margin-top: 18px;
-  margin-right: 10px;
-  display: inline-block;
-  padding-left: 0;
- }
+  ul {
+    float: right;
+    margin: 0;
+    margin-top: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    padding-left: 0;
+  }
 
   li {
     list-style-type: none;

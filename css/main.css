@@ -270,4 +270,8 @@ li:hover {
     height: 70px;
   }
 
+  .text-abt {
+    transform: translateY(-13px);
+  }
+
 }
